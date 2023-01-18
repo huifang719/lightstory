@@ -6,17 +6,17 @@ import brand from '../image/logo.png';
 const MainNav = () => {
   return (
     <Navbar variant="dark" expand="lg" style={{ backgroudColor: '#14213d' }}>
-      <Container fluid style={{ backgroudColor: '#14213d' }}>
+      <Container style={{ backgroudColor: '#14213d' }}>
         <Navbar.Brand className="sm-ms-0 md-ms-4 lg-ms-6" as={Link} to="/">
-          <Image src={brand} style={{ height: '50px' }} />
+          <Image src={brand} style={{ height: '80px' }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto justify-content-end" style={{ width: '90%' }}>
+          <Nav className="me-auto justify-content-end" style={{ width: '100%' }}>
             <Nav.Link as={Link} to="/"> Home</Nav.Link>
             <Nav.Link as={Link} to="../about"> About Me</Nav.Link>
-            <Nav.Link as={Link} to="../skills"> Gallery</Nav.Link>
-            <Nav.Link as={Link} to="../projects"> Pricing</Nav.Link>
+            <Nav.Link as={Link} to="../gallery"> Gallery</Nav.Link>
+            <Nav.Link as={Link} to="../pricing"> Pricing</Nav.Link>
             <Nav.Link as={Link} to="../contact"> Contact Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -1,7 +1,8 @@
 .App {
-  text-align: center;
   display: flex;
   flex-direction: column;
   background-color: #000000;
-  height: 100vh;
+  height: max-content;
+  padding-bottom: 20px;
+  color: white;
 }
