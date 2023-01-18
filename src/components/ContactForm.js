@@ -3,7 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 
 const ContactForm = () => {
   return (
-    <Form style={{ width: '80%' }} action="https://mailthis.to/lightstoryphotography@outlook.com" method="POST" encType="multipart/form-data">
+    <Form style={{ width: '80%', paddingTop: '1rem' }} action="https://mailthis.to/lightstoryphotography@outlook.com" method="POST" encType="multipart/form-data">
       <h4>Contact Me</h4>
       <Form.Group controlId="formBasicEmail">
         <Form.Label>
@@ -27,7 +27,7 @@ const ContactForm = () => {
         </Form.Label>
         <Form.Control type="text" as="textarea" rows="3" name="message" placeholder="Message" required />
       </Form.Group>
-      <Button variant="primary" type="submit">
+      <Button style={{ backgroundColor: '#14213d' }} type="submit">
         Submit
       </Button>
     </Form>
