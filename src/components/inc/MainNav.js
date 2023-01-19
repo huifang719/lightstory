@@ -6,9 +6,9 @@ import brand from '../image/logo.png';
 const MainNav = () => {
   return (
     <Navbar variant="dark" expand="lg">
-      <Container style={{ backgroudColor: '#14213d', width: '90%' }}>
-        <Navbar.Brand as={Link} to="/">
-          <Image src={brand} style={{ height: '80px' }} />
+      <Container style={{ backgroudColor: '#14213d' }}>
+        <Navbar.Brand className="sm-ms-0 md-ms-4 lg-ms-4" as={Link} to="/">
+          <Image className="brand" src={brand} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

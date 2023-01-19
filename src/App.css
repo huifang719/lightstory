@@ -16,9 +16,16 @@
   font-size: 1.2rem;
 }
 
+.brand {
+  width: 70px;
+}
+
 @media only screen and (max-width: 576px) {
   .navbar .navbar-nav .nav-link {
     color: #ffffff;
     font-size: 1rem;
+  }
+  .brand {
+    width: 50px;
   }
 }
