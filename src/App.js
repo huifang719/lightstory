@@ -11,7 +11,7 @@ import AboutMe from './components/AboutMe';
 const App = () => {
   return (
     <Container fluid className="App">
-      <header>
+      <header className="mb-2">
         <MainNav />
       </header>
       <main>

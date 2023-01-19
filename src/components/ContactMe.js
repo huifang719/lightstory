@@ -13,7 +13,7 @@ import ContactForm from './ContactForm';
 const ContactMe = () => {
   const boxVariant = {
     visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.5 } },
-    hidden: { opacity: 0.5, scale: 0.5, y: 30 },
+    hidden: { opacity: 0, scale: 0, y: 30 },
   };
   const control = useAnimation();
   const [ref, inView] = useInView();
