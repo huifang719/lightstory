@@ -13,12 +13,12 @@
 
 .navbar .navbar-nav .nav-link {
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 @media only screen and (max-width: 576px) {
   .navbar .navbar-nav .nav-link {
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
