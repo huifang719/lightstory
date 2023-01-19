@@ -5,7 +5,7 @@ import brand from '../image/logo.png';
 
 const MainNav = () => {
   return (
-    <Navbar variant="dark" expand="lg" style={{ backgroudColor: '#14213d' }}>
+    <Navbar variant="dark" expand="lg">
       <Container style={{ backgroudColor: '#14213d' }}>
         <Navbar.Brand className="sm-ms-0 md-ms-4 lg-ms-6" as={Link} to="/">
           <Image src={brand} style={{ height: '80px' }} />

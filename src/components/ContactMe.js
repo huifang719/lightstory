@@ -5,6 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import { IconContext } from 'react-icons';
+import { HiLocationMarker, HiOutlinePhone, HiOutlineMail } from 'react-icons/hi';
 import ContactForm from './ContactForm';
 
 const ContactMe = () => {
@@ -15,17 +16,17 @@ const ContactMe = () => {
       </Row>
       <Row className="d-flex">
         <Col xs={12} lg={6} md={6}>
-          <Card style={{ width: '100%', background: 'none' }}>
+          <Card style={{ width: '90%', background: 'none' }}>
             <Card.Body>
               <Card.Title>Contact Info</Card.Title>
               <Card.Text>
                 If you have any enquries, please do not hesitate to contact me
               </Card.Text>
-              <IconContext.Provider value={{ color: 'lightgrey' }}>
+              <IconContext.Provider value={{ color: '#14213d', backgroundColor: '#14213d' }}>
                 <ListGroup className="list-group-flush">
-                  <ListGroup.Item>lightstoryphotography@outlook.com</ListGroup.Item>
-                  <ListGroup.Item>(61) 478968999</ListGroup.Item>
-                  <ListGroup.Item>834A Military Road, North Haven,SA,5018</ListGroup.Item>
+                  <ListGroup.Item><HiOutlineMail /> lightstoryphotography@outlook.com</ListGroup.Item>
+                  <ListGroup.Item><HiOutlinePhone /> (61) 478968999</ListGroup.Item>
+                  <ListGroup.Item><HiLocationMarker /> 834A Military Road, North Haven,SA,5018</ListGroup.Item>
                 </ListGroup>
               </IconContext.Provider>
             </Card.Body>
