@@ -8,7 +8,7 @@ const MainNav = () => {
     <Navbar variant="dark" expand="lg">
       <Container style={{ backgroudColor: '#14213d' }}>
         <Navbar.Brand className="sm-ms-0 md-ms-4 lg-ms-6" as={Link} to="/">
-          <Image src={brand} style={{ height: '45px' }} />
+          <Image src={brand} style={{ height: '80px' }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
