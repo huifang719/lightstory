@@ -3,7 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 
 const ContactForm = () => {
   return (
-    <Form style={{ width: '80%', paddingTop: '1rem', marginLeft: '1rem' }} action="https://mailthis.to/lightstoryphotography@outlook.com" method="POST" encType="multipart/form-data">
+    <Form style={{ paddingTop: '1rem', marginLeft: '1rem' }} action="https://mailthis.to/lightstoryphotography@outlook.com" method="POST" encType="multipart/form-data">
       <h4>Contact Me</h4>
       <Form.Group controlId="formBasicEmail">
         <Form.Label>

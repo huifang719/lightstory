@@ -7,7 +7,7 @@ const MainNav = () => {
   return (
     <Navbar variant="dark" expand="lg">
       <Container fluid style={{ backgroudColor: '#14213d', width: '85%' }}>
-        <Navbar.Brand className="sm-ms-0 md-ms-4 lg-ms-6" as={Link} to="/">
+        <Navbar.Brand as={Link} to="/">
           <Image className="brand" src={brand} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
