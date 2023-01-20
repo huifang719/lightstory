@@ -29,24 +29,17 @@
     font-size: 1rem;
   }
 
-  .pageContainer {
-    width: 95%;
-  }
-
   .map {
     height: 300px;
   }
 
   .brand {
     height: 50px;
+    display: inline-block;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .pageContainer {
-    width: 85%;
-  }
-
   .navbar .navbar-nav .nav-link {
     color: #ffffff;
     font-size: 1rem;
@@ -54,12 +47,8 @@
 }
 
 @media only screen and (min-width: 1400px) {
-  .pageContainer {
-    width: 85%;
-  }
-
   .navbar .navbar-nav .nav-link {
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
