@@ -33,6 +33,10 @@
     width: 95%;
   }
 
+  .map {
+    height: 300px;
+  }
+
   .brand {
     height: 50px;
   }
