@@ -16,6 +16,10 @@
   font-size: 1.2rem;
 }
 
+.pageContainer {
+  width: 90%;
+}
+
 .brand {
   height: 70px;
 }
@@ -26,13 +30,17 @@
     font-size: 1rem;
   }
 
+  .pageContainer {
+    width: 95%;
+  }
+
   .brand {
     height: 50px;
   }
 }
 
 @media only screen and (min-width: 1400px) {
-  .navContainer {
+  .pageContainer {
     width: 85%;
   }
 }
