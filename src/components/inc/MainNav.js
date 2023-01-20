@@ -6,7 +6,7 @@ import brand from '../image/logo.png';
 const MainNav = () => {
   return (
     <Navbar variant="dark" expand="lg">
-      <Container className="navContainer" fluid>
+      <Container>
         <Navbar.Brand as={Link} to="/">
           <Image className="brand" src={brand} />
         </Navbar.Brand>

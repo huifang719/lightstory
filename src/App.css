@@ -39,6 +39,12 @@
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  .pageContainer {
+    width: 85%;
+  }
+}
+
 @media only screen and (min-width: 1400px) {
   .pageContainer {
     width: 85%;
