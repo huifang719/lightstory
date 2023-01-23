@@ -8,7 +8,7 @@ const MainNav = () => {
     <Navbar variant="dark" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          <Image className="brand" src={brand} />
+          <Image className="brand" src={brand} alt="lightstory-photography" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
