@@ -17,6 +17,11 @@
   color: #ffffff;
 }
 
+.welcome {
+  border: none;
+  width: 80%;
+  display: inline-block
+}
 .pageContainer {
   width: 90%;
 }
@@ -35,6 +40,10 @@
     height: 300px;
   }
 
+  .welcome {
+    width: 85%;
+  }
+
   .brand {
     height: 50px;
     display: inline-block;
@@ -46,11 +55,18 @@
     color: #ffffff;
     font-size: 1rem;
   }
+  .welcome {
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
   .navbar .navbar-nav .nav-link {
     color: #ffffff;
     font-size: 1.5rem;
+  }
+
+  .welcome {
+    width: 60%;
   }
 }
