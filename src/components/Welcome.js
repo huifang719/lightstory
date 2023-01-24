@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 
 const Welcome = () => (
   <Container fluid className="pt-3 pb-3" style={{ backgroundColor: 'white', color: '#14213d', display: 'flex', justifyContent: 'center' }}>
-    <Card className="welcome" style={{ border: 'none', width: '80%', display: 'inline-block' }}>
+    <Card className="welcome">
       <Card.Body>
         <Card.Title style={{ textAlign: 'center' }}>Welcome</Card.Title>
         <Card.Subtitle className="mb-2">Let me help you to hold on to your beautiful memories.</Card.Subtitle>
