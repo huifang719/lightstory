@@ -2,17 +2,17 @@
 /* eslint-disable quote-props */
 /* eslint-disable no-unused-vars */
 /* eslint-disable space-infix-ops */
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 
 const Testmonials = () => {
   const [reviews, setReviews] = useState([]);
 
-  const getReviews = async () => {
+  useEffect(async () => {
     const clientID = '156810727351-i87vikc9cqt2ti5eik59b55vhmt02eqj.apps.googleusercontent.com';
-    const businessID = process.env.REACT-APP-BUSINESS-ID;
-    const placeID = process.env.REACT-APP-PLACE-ID;
-    const secret = process.env.REACT-APP-GOOGLE-SECRET;
+    const businessID = process.env.REACT_APP_BUSINESS_ID;
+    const placeID = process.env.REACT_APP_PLACE_ID;
+    const secret = process.env.REACT_APP_GOOGLE_SECRET;
     const res = await fetch(
       `https://mybusiness.googleapis.com/v4/accounts/${businessID}/locations/${placeID}/reviews`,
       {
@@ -23,7 +23,8 @@ const Testmonials = () => {
         },
       },
     );
-  };
+    console.log(res);
+  }, []);
 
   return (
     <Container fluid className="pageContainer">
