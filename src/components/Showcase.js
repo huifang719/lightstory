@@ -7,11 +7,11 @@ import ShowcaseImg from './ShowcaseImg';
 
 const Showcase = () => {
   return (
-    <Carousel fade className="container-fluid">
+    <Carousel fade fluid>
       {ShowcaseImg.map((img, index) =>
-        <Carousel.Item key={index}>
+        <Carousel.Item key={index} interval={1000}>
           <img
-            className="d-block h-100"
+            style={{ width: '100vw', height: 'auto' }}
             src={img}
             alt="First slide"
           />
