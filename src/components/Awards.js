@@ -48,8 +48,8 @@ const Awards = () => {
   };
 
   return (
-    <Container fluid>
-      <h5>Awards</h5>
+    <Container fluid className="pt-3">
+      <h5 style={{ textAlign: 'center' }}>Awards</h5>
       <Slider {...settings}>
         {AwardsImg.map((img, index) =>
           <Image src={img} style={{ height: '300px' }} key={index} />)}
