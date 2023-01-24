@@ -8,8 +8,7 @@ import lightstory7 from './image/lightstory_7.png';
 import lightstory8 from './image/lightstory_8.png';
 import lightstory9 from './image/lightstory_9.png';
 import lightstory10 from './image/lightstory_10.png';
-import lightstory11 from './image/lightstory_11.png';
 
-const ShowcaseImg = [lightstory1, lightstory2, lightstory3, lightstory4, lightstory5, lightstory6, lightstory7, lightstory8, lightstory9, lightstory10, lightstory11];
+const ShowcaseImg = [lightstory1, lightstory2, lightstory3, lightstory4, lightstory5, lightstory6, lightstory7, lightstory8, lightstory9, lightstory10];
 
 export default ShowcaseImg;
