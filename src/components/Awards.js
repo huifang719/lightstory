@@ -49,6 +49,7 @@ const Awards = () => {
 
   return (
     <Container fluid>
+      <h3>Awards</h3>
       <Slider {...settings}>
         {AwardsImg.map((img, index) =>
           <Image src={img} style={{ height: '300px' }} key={index} />)}
