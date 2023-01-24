@@ -50,9 +50,9 @@ const ContactMe = () => {
                 </Card.Text>
                 <IconContext.Provider value={{ color: '#14213d', backgroundColor: '#14213d' }}>
                   <ListGroup className="list-group-flush">
-                    <ListGroup.Item><HiOutlineMail /> lightstoryphotography@outlook.com</ListGroup.Item>
-                    <ListGroup.Item><HiOutlinePhone /> (61) 478968999</ListGroup.Item>
-                    <ListGroup.Item><HiLocationMarker /> 834A Military Road, North Haven,SA,5018</ListGroup.Item>
+                    <ListGroup.Item style={{ color: '#14213d' }}><HiOutlineMail /> lightstoryphotography@outlook.com</ListGroup.Item>
+                    <ListGroup.Item style={{ color: '#14213d' }}><HiOutlinePhone /> (61) 478968999</ListGroup.Item>
+                    <ListGroup.Item style={{ color: '#14213d' }}><HiLocationMarker /> 834A Military Road, North Haven,SA,5018</ListGroup.Item>
                   </ListGroup>
                 </IconContext.Provider>
               </Card.Body>
