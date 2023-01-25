@@ -36,11 +36,8 @@ const Testmonials = () => {
   return (
     <Container fluid className="pt-3 pb-3" style={{ backgroundColor: 'white' }}>
       <motion.div
+        className="container"
         style={{ backgroundColor: 'white', color: '#14213d' }}
-        fluid
-        xs={12}
-        lg={6}
-        md={6}
         ref={ref}
         variants={boxVariant}
         initial="hidden"

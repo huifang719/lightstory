@@ -22,6 +22,10 @@
   width: 80%;
   display: inline-block
 }
+
+.testmonials{
+  width: 80%;
+}
 .pageContainer {
   width: 90%;
 }
@@ -44,6 +48,10 @@
     width: 95%;
   }
 
+  .testmonials {
+    width: 95%;
+  }
+
   .brand {
     height: 50px;
     display: inline-block;
@@ -56,6 +64,10 @@
     font-size: 1rem;
   }
   .welcome {
+    width: 80%;
+  }
+
+  .testmonials {
     width: 80%;
   }
 }
