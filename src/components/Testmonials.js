@@ -4,32 +4,23 @@
 /* eslint-disable space-infix-ops */
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
+import * as google from 'google-maps-react';
 
 const Testmonials = () => {
-  const [reviews, setReviews] = useState([]);
-
-  useEffect(async () => {
-    const clientID = '156810727351-i87vikc9cqt2ti5eik59b55vhmt02eqj.apps.googleusercontent.com';
-    const businessID = process.env.REACT_APP_BUSINESS_ID;
-    const placeID = process.env.REACT_APP_PLACE_ID;
-    const secret = process.env.REACT_APP_GOOGLE_SECRET;
-    const res = await fetch(
-      `https://mybusiness.googleapis.com/v4/accounts/${businessID}/locations/${placeID}/reviews`,
-      {
-        method: 'GET',
-        headers: {
-          'clientID': clientID,
-          'secret': secret,
-        },
-      },
-    );
-    console.log(res);
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://reviewsonmywebsite.com/js/embedLoader.js?id=03d30ab029f3709eb7ee597570569e34';
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
   }, []);
 
   return (
-    <Container fluid className="pageContainer">
+    <Container fluid className="pt-3 pb-3" style={{ backgroundColor: 'white' }}>
+      <h5 className="mt-3 mb-3" style={{ textAlign: 'center', color: '#14213d' }}>Testmonials</h5>
       <div data-token="IU4GRsIL3wsrJsusynAmWlP7A2QFuzrUhbLUCnBekKzGL1y3YQ" className="romw-reviews" />
-      <script src="https://reviewsonmywebsite.com/js/embedLoader.js?id=03d30ab029f3709eb7ee597570569e34" type="text/javascript" />
     </Container>
   );
 };
