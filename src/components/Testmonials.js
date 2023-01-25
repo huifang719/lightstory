@@ -4,7 +4,6 @@
 /* eslint-disable space-infix-ops */
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
-import * as google from 'google-maps-react';
 
 const Testmonials = () => {
   useEffect(() => {
