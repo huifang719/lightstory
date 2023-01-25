@@ -16,16 +16,10 @@ const MainNav = () => {
           <Nav collapseOnSelect className="me-auto justify-content-end" style={{ width: '100%' }}>
             <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/"> Home</Nav.Link>
             <Nav.Link onClick={() => setExpanded(false)} as={Link} to="../about"> About Me</Nav.Link>
-            <NavDropdown onClick={() => setExpanded(false)} title="Gallery" id="basic-nav-dropdown" menuVariant="dark">
-              <NavDropdown.Item onClick={() => setExpanded(false)} href="#action/3.1">Bum to Baby</NavDropdown.Item>
-              <NavDropdown.Item onClick={() => setExpanded(false)} href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item onClick={() => setExpanded(false)} href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+            <NavDropdown title="Gallery" id="basic-nav-dropdown" menuVariant="dark">
+              <NavDropdown.Item align="center" id="newhover" onClick={() => setExpanded(false)} as={Link} to="/">Bump to Baby</NavDropdown.Item>
+              <NavDropdown.Item align="center" id="newhover" onClick={() => setExpanded(false)} as={Link} to="/">Fine Art</NavDropdown.Item>
+              <NavDropdown.Item id="newhover" onClick={() => setExpanded(false)} as={Link} to="/">Outdoor</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link onClick={() => setExpanded(false)} as={Link} to="../pricing"> Pricing</Nav.Link>
             <Nav.Link onClick={() => setExpanded(false)} as={Link} to="../contact"> Contact Me</Nav.Link>
