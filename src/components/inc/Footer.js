@@ -5,7 +5,7 @@ import SocialMedia from '../SocialMedia';
 const Footer = () => {
   return (
     <Container className="mt-3">
-      <Row fluid className="d-flex align-items-center">
+      <Row fluid className="d-flex align-items-center" style={{ flexWrap: 'wrap-reverse' }}>
         <Col xs={12} lg={6} md={6}>
           <p style={{ textAlgin: 'center' }}><small>Copyright &copy; 2023 LightStory Photography | All Rights Reserved</small></p>
         </Col>
