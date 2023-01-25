@@ -34,7 +34,7 @@ const Testmonials = () => {
   }, []);
 
   return (
-    <Container fluid className="pt-3 pb-3" style={{ backgroundColor: 'white' }}>
+    <Container fluid className="pt-3 pb-3 mb-6" style={{ backgroundColor: 'white' }}>
       <motion.div
         className="container"
         style={{ backgroundColor: 'white', color: '#14213d' }}

@@ -34,9 +34,6 @@ const ContactMe = () => {
       <Row className="d-flex">
         <Col xs={12} lg={6} md={6}>
           <motion.div
-            xs={12}
-            lg={6}
-            md={6}
             ref={ref}
             variants={boxVariant}
             initial="hidden"
