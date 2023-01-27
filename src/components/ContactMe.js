@@ -45,7 +45,7 @@ const ContactMe = () => {
                 <Card.Text>
                   If you have any enquries, please do not hesitate to contact me
                 </Card.Text>
-                <IconContext.Provider value={{ color: '#14213d', backgroundColor: '#14213d' }}>
+                <IconContext.Provider value={{ color: '#fca311', backgroundColor: '#fca311' }}>
                   <ListGroup className="list-group-flush">
                     <ListGroup.Item style={{ color: '#14213d' }}><HiOutlineMail /> lightstoryphotography@outlook.com</ListGroup.Item>
                     <ListGroup.Item style={{ color: '#14213d' }}><HiOutlinePhone /> (61) 478968999</ListGroup.Item>
