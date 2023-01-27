@@ -13,7 +13,7 @@ const MainNav = () => {
         </Navbar.Brand>
         <Navbar.Toggle onClick={() => setExpanded(expanded ? false : 'expanded')} aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav collapseOnSelect className="me-auto justify-content-end" style={{ width: '100%' }}>
+          <Nav collapseonselect className="me-auto justify-content-end" style={{ width: '100%' }}>
             <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/"> Home</Nav.Link>
             <Nav.Link onClick={() => setExpanded(false)} as={Link} to="../about"> About Me</Nav.Link>
             <NavDropdown title="Gallery" id="basic-nav-dropdown" menuVariant="dark">

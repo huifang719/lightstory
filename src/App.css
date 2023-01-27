@@ -43,7 +43,7 @@
 }
 
 .brand {
-  height: 70px;
+  height: 90px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -61,7 +61,7 @@
   }
 
   .brand {
-    height: 50px;
+    height: 70px;
     display: inline-block;
   }
 }
