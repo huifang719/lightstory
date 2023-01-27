@@ -8,6 +8,9 @@ import Home from './components/Home';
 import ContactMe from './components/ContactMe';
 import AboutMe from './components/AboutMe';
 import Footer from './components/inc/Footer';
+import BumpToBaby from './components/BumpToBaby';
+import FineArt from './components/FineArt';
+import Outdoor from './components/Outdoor';
 
 const App = () => {
   return (
@@ -20,6 +23,9 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<ContactMe />} />
           <Route path="/about" element={<AboutMe />} />
+          <Route path="/bumptobaby" element={<BumpToBaby />} />
+          <Route path="/fineart" element={<FineArt />} />
+          <Route path="/outdoor" element={<Outdoor />} />
         </Routes>
       </main>
       <Footer />

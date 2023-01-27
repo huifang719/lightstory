@@ -3,6 +3,7 @@ import { Container, Row, Image } from 'react-bootstrap';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import profile from './image/profile.png';
+import BumpToBaby from './BumpToBaby';
 
 const AboutMe = () => {
   const boxVariant = {
@@ -45,6 +46,7 @@ const AboutMe = () => {
           <p>I am honoured that you are considering me to capture your beautiful and precious memories, please do not hesitate to <a href="/contact">contact me</a> for any questions or to check my availability.</p>
         </motion.div>
       </Row>
+      <BumpToBaby />
     </Container>
   );
 };
