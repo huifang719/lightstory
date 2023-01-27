@@ -35,14 +35,14 @@ const AboutMe = () => {
           animate={control}
         >
           <h3>ABOUT ME</h3>
-          <h5>THE MUM BEHIND THE CAMERA</h5>
-          <blockquote>
+          <h5 style={{ textAlign: 'center' }}>THE MUM BEHIND THE CAMERA</h5>
+          <blockquote style={{ color: '#fca311', textAlign: 'center', fontStyle: 'italic' }}>
             <p>Photography is the beauty of life captured.</p>
           </blockquote>
 
           <p>Hi, I am Liva, an award-winning portrait photographer based in Adelaide, specializing in children, family, maternity, and newborn photography.</p>
           <p>My passion for photography began as a mother of three, wanting to capture every moment of my kids. For me, photography is a way to tell stories and preserve memories. I am dedicated to creating beautiful images and am always willing to go the extra mile.</p>
-          <p>I am honoured that you are considering me to capture your beautiful and precious memories, please do not hesitate to <a href="/contact">contact me</a> for any questions or to check my availability.</p>
+          <p>I am honoured that you are considering me to capture your beautiful and precious memories, please do not hesitate to <a href="/contact" className="text-decoration-none">contact me</a> for any questions or to check my availability.</p>
         </motion.div>
       </Row>
     </Container>
