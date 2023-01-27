@@ -3,7 +3,6 @@ import { Container, Row, Image } from 'react-bootstrap';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import profile from './image/profile.png';
-import BumpToBaby from './BumpToBaby';
 
 const AboutMe = () => {
   const boxVariant = {
