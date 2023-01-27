@@ -2,7 +2,7 @@
 /* eslint-disable quote-props */
 /* eslint-disable no-unused-vars */
 /* eslint-disable space-infix-ops */
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Container } from 'react-bootstrap';
 
 const Testmonials = () => {
