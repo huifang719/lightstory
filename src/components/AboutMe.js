@@ -36,7 +36,7 @@ const AboutMe = () => {
         >
           <h3>ABOUT ME</h3>
           <h5 style={{ textAlign: 'center' }}>THE MUM BEHIND THE CAMERA</h5>
-          <blockquote style={{ color: '#fca311', textAlign: 'center', fontStyle: 'italic' }}>
+          <blockquote style={{ color: '#fca311', textAlign: 'center', fontStyle: 'italic', fontFamily: "'EB Garamond', serif" }}>
             <p>Photography is the beauty of life captured.</p>
           </blockquote>
 

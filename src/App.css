@@ -7,6 +7,7 @@
   margin-left: 0;
   margin-right: 0;
   min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar .navbar-nav .nav-link:hover {
