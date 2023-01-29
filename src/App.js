@@ -11,6 +11,7 @@ import Footer from './components/inc/Footer';
 import BumpToBaby from './components/BumpToBaby';
 import FineArt from './components/FineArt';
 import Outdoor from './components/Outdoor';
+import Services from './components/Services';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/bumptobaby" element={<BumpToBaby />} />
           <Route path="/fineart" element={<FineArt />} />
           <Route path="/outdoor" element={<Outdoor />} />
+          <Route path="/services" element={<Services />} />
         </Routes>
       </main>
       <Footer />

@@ -21,7 +21,7 @@ const MainNav = () => {
               <NavDropdown.Item align="center" id="newhover" onClick={() => setExpanded(false)} as={Link} to="../fineart">Fine Art</NavDropdown.Item>
               <NavDropdown.Item id="newhover" onClick={() => setExpanded(false)} as={Link} to="../outdoor">Outdoor</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link onClick={() => setExpanded(false)} as={Link} to="../pricing"> Pricing</Nav.Link>
+            <Nav.Link onClick={() => setExpanded(false)} as={Link} to="../services"> Services</Nav.Link>
             <Nav.Link onClick={() => setExpanded(false)} as={Link} to="../contact"> Contact Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
