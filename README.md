@@ -1,7 +1,7 @@
 # LightStory Photography offical website
 ## This is my photography portfolio for my side business
 
-## :computer: [Click here](https://lightstoryphotography.com.au/) to see my live project!
+## :computer: [Click here](https://lightstoryphotography.com.au/) to see my website!
 ## website outlay
 ![image](https://user-images.githubusercontent.com/112321294/215306381-d666822c-c6ed-4b41-8f89-7d1823c3fa57.png)
 ## website outlay: Mobile
