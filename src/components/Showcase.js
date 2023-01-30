@@ -7,7 +7,7 @@ import ShowcaseImg from './ShowcaseImg';
 
 const Showcase = () => {
   return (
-    <Carousel fade fluid>
+    <Carousel indicators={false} fade fluid>
       {ShowcaseImg.map((img, index) =>
         <Carousel.Item key={index} interval={1000}>
           <img
